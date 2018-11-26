@@ -10,7 +10,11 @@
 		</script>
 	</head>
 	<body onload="form_diff.reset()">
-		<h2>Side-by-Side Patch Viewer v0.4</h2>
+		<center>
+		<h2>Git Diff Viewer</h2>
+		<br>
+		<h3>(Only client side - no data will leave your computer)</h3>
+		</center>
 		<form id="form_diff">
 			<div class="toolbar"> Paste your diff snippet below then 
 				<button type="button" onclick="diffRender(document.getElementById('diffText').value,document.getElementById('diffResult'))"> START </button> ; or load from a file: 
